@@ -1,1 +1,57 @@
 /* Style CSS */
+.html {background-color: honeydew;}
+
+.section-content {
+    background-color: aquamarine;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0;
+    border: 0px;
+    text-align: center;
+}
+
+#Keliling-Segitiga {    
+    padding-top: 1px;
+    padding-bottom: 15px;
+    width: 100%;
+    background-color: honeydew;
+    border: 1px;
+    color: blue
+}
+
+.Luas-Segitiga {
+    background-color: aquamarine;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 0;
+    border: 0px;
+    font-weight: bold;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+
+.image {
+   text-align: center;
+   width: 100%;
+   height: 100%;
+}
+
+input { 
+    background-color: rgba(127, 255, 212, 0.36);
+    border-radius: 4px;
+    width: 100%;
+    font-family: math;
+}
+
+#Reset { 
+    background-color: aqua;
+    
+
+}
+
+button {
+    padding: 18px;
+    border-radius: 20px;
+    background-color: rgba(127, 255, 212, 0.362);
+}
