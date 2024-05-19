@@ -1,1 +1,1 @@
-// Ini SCRIPT
+// Ini SCRIPT JS
