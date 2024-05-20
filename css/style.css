@@ -10,16 +10,16 @@
     text-align: center;
 }
 
-#Keliling-Segitiga {    
-    padding-top: 1px;
-    padding-bottom: 15px;
+#button-luas-atas {    
+    padding-top: 0px;
+    padding-bottom: 20px;
     width: 100%;
     background-color: honeydew;
-    border: 1px;
+    border: 0px;
     color: blue
 }
 
-.Luas-Segitiga {
+.Keliling-Segitiga {
     background-color: aquamarine;
     padding-top: 2px;
     padding-bottom: 2px;
@@ -54,4 +54,16 @@ button {
     padding: 18px;
     border-radius: 15px;
     background-color: rgba(127, 255, 212, 0.362);
+}
+
+.Luas-Segitiga {
+    background-color: aquamarine;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 0;
+    border: 0px;
+    font-weight: bold;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
 }
