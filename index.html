@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fatkhur Assignment</title>
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
         <header>
@@ -18,10 +19,6 @@
             <div class="section-content">
                 <h3>Kalkulator Keliling dan Luas Segitiga</h3>
             </div>
-
-            <button type="button" id="button-luas-atas" > 
-                <u>Luas Segitiga</u>
-            </button>
         </section>
 
         <section>
@@ -46,26 +43,29 @@
             <form>
                <section>
                 <div>
-                    <label>Sisi A:</label><input>
+                    <label>Sisi A:</label><input id="SisiA" type="number">
                 </div>
 
                 <div>
-                    <label>Sisi B:</label><input>
+                    <label>Sisi B:</label><input id="SisiB" type="number">
                 </div>
 
                 <div>
-                    <label>Sisi C:</label><input>
+                    <label>Sisi C:</label><input id="SisiC" type="number">
                 </div>
                </section>
 
                <p>Button</p>
 
-               <button type="button">Hitung</button>
-               <button type="button" id="Reset">Reset</button>
+               <button type="button" onclick="countButtonKeliling()">Hitung</button>
+               <button type="button"  onclick="resetButtonKeliling()" id="Reset">Reset</button>
             </form>
             </section>
-
-            <hr/>
+            <section>
+                <hr/>
+                <p id="keliling"></p>
+                <hr/>
+            </section>
             <br/>
 
             <section>
@@ -87,27 +87,29 @@
                 <form>
                    <section>
                     <div>
-                        <label>Alas:</label><input>
+                        <label>Alas:</label><input id="alas" type="number">
                     </div>
     
                     <div>
-                        <label>Tinggi:</label><input>
+                        <label>Tinggi:</label><input id="tinggi" type="number">
                     </div>
 
                    </section>
     
                    <p>Button</p>
     
-                   <button type="button">Hitung</button>
-                   <button type="button" id="Reset">Reset</button>
+                   <button type="button" onclick="countButtonLuas()">Hitung</button>
+                   <button type="button" onclick="resetButtonLuas()" id="Reset" value="">Reset</button>
                 </form>
-                <hr/>
+                    <section>
+                    <hr/>
+                    <p id="luas"></p>
+                    <hr>
+                    </section>
                 </section>
-    
-
-
-
             </section>
         </section>
+        <script src="js/script.js"></script>
 </body>
+
 </html>
